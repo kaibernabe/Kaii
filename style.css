@@ -1,0 +1,66 @@
+label{
+  font-size: 190%;
+  color: black;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-size: 820%;
+  text-align:center;
+  font-family: bold;
+  color:black;
+  
+}
+
+body {
+  background-image: url('/kai/復古背景 撕痕 貼紙 標籤圖桌布手機桌布圖片免費下載 - Pngtree.jpeg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  box-sizing: border-box;
+  display:block;
+  
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 30px 30px;
+  border: none;
+  border-radius: 30px;
+  outline:none;
+  cursor: pointer;
+  width: 20%; 
+  margin: 0 auto;
+  font-size:22px;
+  font-weight: 500;
+  display: block; 
+  background-color:brown;
+}
+
+button:hover {
+  background-color: saddlebrown;
+}
+#message {
+  padding: 50px; 
+}
+

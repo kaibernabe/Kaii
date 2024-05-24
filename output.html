@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="output.css">
+  <title>Slam Book Output</title>
+</head>
+
+<body>
+  <h1></h1>
+
+  <div id="output">
+  </div>
+
+  <script>
+
+    const urlParams = new URLSearchParams(window.location.search);
+    const firstname = urlParams.get('firstname');
+    const middlename = urlParams.get('middlename');
+    const lastname= urlParams.get('lastname');
+    const nickname = urlParams.get('nickname');
+    const bdate = urlParams.get('bdate');
+    const age = urlParams.get('age');
+    const gender = urlParams.get('gender');
+    const email = urlParams.get('email');
+    const hobby = urlParams.get('hobby');
+    const address = urlParams.get('address');
+    const fcolor = urlParams.get('fcolor');
+    const mname = urlParams.get('mname');
+    const fname = urlParams.get('fname');
+    const wyoumiss = urlParams.get('wyoumiss');
+     const ecolor = urlParams.get('ecolor');
+     const hcolor = urlParams.get('hcolor');
+     const ffood = urlParams.get('ffood');
+     const djob = urlParams.get('djob');
+     const fmovie = urlParams.get('fmovie');
+     const fsong = urlParams.get('fsong');
+    const fnimal = urlParams.get('fnimal');
+    const fseason= urlParams.get('fseason');
+    const message = urlParams.get('message');
+
+    var outputElement = document.getElementById("output");
+   
+    outputElement.innerHTML += "<p><strong>First Name:</strong> " + firstname + "</p>";
+    outputElement.innerHTML += "<p><strong>Middle Name:</strong> " + middlename + "</p>";
+    outputElement.innerHTML += "<p><strong>Last Name:</strong> " + lastname + "</p>";
+    outputElement.innerHTML += "<p><strong>Nickname:</strong> " + nickname + "</p>";
+    outputElement.innerHTML += "<p><strong>Birth Date:</strong> " + bdate + "</p>";
+    outputElement.innerHTML += "<p><strong>Age:</strong> " + age + "</p>";
+    outputElement.innerHTML += "<p><strong>Gender:</strong> " + gender + "</p>";
+    outputElement.innerHTML += "<p><strong>Email:</strong> " + email + "</p>";
+    outputElement.innerHTML += "<p><strong>Hobby:</strong> " + hobby + "</p>";
+    outputElement.innerHTML += "<p><strong>Address:</strong> " + address + "</p>";
+    outputElement.innerHTML += "<p><strong>Favorite Color:</strong> " + fcolor + "</p>";
+    outputElement.innerHTML += "<p><strong>Mother Name:</strong> " + mname + "</p>";
+    outputElement.innerHTML += "<p><strong>Father Name:</strong> " + fname + "</p>";
+    
+    outputElement.innerHTML += "<p><strong>Who you miss:</strong> " + wyoumiss+ "</p>";
+    
+    outputElement.innerHTML += "<p><strong>Eye color:</strong> " + ecolor + "</p>";
+    
+    outputElement.innerHTML += "<p><strong>Hair color:</strong> " + hcolor + "</p>";
+    
+      outputElement.innerHTML += "<p><strong>Favorite food:</strong> " + ffood + "</p>";
+      
+      outputElement.innerHTML += "<p><strong>Dream Job:</strong> " + djob + "</p>";
+      
+      outputElement.innerHTML += "<p><strong>Favorite Movie:</strong> " + fmovie + "</p>";
+      
+    outputElement.innerHTML += "<p><strong>Favorite Song:</strong> " + fsong + "</p>";
+
+   outputElement.innerHTML += "<p><strong>Favorite Animal:</strong> " + fnimal+ "</p>";
+
+   outputElement.innerHTML += "<p><strong>Favorite Season:</strong> " + fseason+ "</p>";
+     
+      outputElement.innerHTML += "<p><strong>Message:</strong> " + message + "</p>";
+  
+              
+        
+      
+  </script>
+</body>
+
+</html>
